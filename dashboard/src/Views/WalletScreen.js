@@ -15,7 +15,6 @@ import AnotherActivity from "../Components/AnotherActivity";
 function WalletScreen() {
   return (
     <div className="md:p-10 p-5">
-      <div>THE STARTING COMPONENTS STARTS FROM HERE</div>
       <div className="md:flex md:justify-between mt-5 mb-5 grid-cols-1">
         <div className=" text-2xl font-bold mb-2">Your Wallet (5)</div>
         <div>

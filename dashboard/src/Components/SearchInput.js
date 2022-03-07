@@ -9,7 +9,7 @@ function SearchInput() {
             placeholder="Search"
             name="Search"
             id="Search"
-            className="h-11 md:w-60 rounded-xl border-2 border-gray-500 p-4"
+            className="h-11 md:w-56 rounded-xl border-2 border-gray-500 p-4"
           />
     </div>
   );

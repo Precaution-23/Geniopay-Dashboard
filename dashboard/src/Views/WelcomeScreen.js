@@ -57,7 +57,7 @@ function WelcomeScreen() {
             <span>&euro;</span>4000.53
           </div>
         </div>
-        <div className="w-82 h-40 bg-[DDECEF]rounded-xl p-8">
+        <div className="w-82 h-40 bg-[#DDECEF] rounded-xl p-8">
           <div className="flex justify-between">
             <div>
               <div className="font-medium text-xl">School Fees</div>
@@ -77,56 +77,56 @@ function WelcomeScreen() {
       </div>
 
       <div className="flex flex-wrap">
-        <div className="w-32 h-36 bg-white m-3 border-[#f1f5f9] border rounded text-center">
-          <div className="w-12 h-12 bg-[#f97316] rounded-md p-2">
+        <div className="w-32 h-36 bg-white border-[#f1f5f9] border rounded mt-3">
+          <div className="w-12 h-12 bg-[#f97316] rounded-md p-2 mx-auto mt-3">
             <HiCreditCard size={30} className="" color="white" />
           </div>
-          <div className="mt-2 ">Add New</div>
-          <div className="">Wallet</div>
+          <div className="mt-2 text-center">Add New</div>
+          <div className="text-center">Wallet</div>
         </div>
 
         <div className="w-32 h-36 bg-white m-3 border-[#f1f5f9] border rounded text-center">
-          <div className="w-12 h-12 bg-[#005061] rounded-md p-2">
+          <div className="w-12 h-12 bg-[#005061] rounded-md p-2 mx-auto mt-3">
             <HiCreditCard size={30} className="" color="white" />
           </div>
-          <div className="mt-2 ">Add New</div>
-          <div className="">Card</div>
+          <div className="mt-2 text-center">Add New</div>
+          <div className="text-center">Card</div>
         </div>
 
         <div className="w-32 h-36 bg-white m-3 border-[#f1f5f9] border rounded text-center">
-          <div className="w-12 h-12 bg-[#f59e0b] rounded-md p-2">
+          <div className="w-12 h-12 bg-[#f59e0b] rounded-md p-2 mx-auto mt-3">
             <HiOutlineCurrencyDollar size={30} className="" color="white" />
           </div>
-          <div className="mt-2 ">Balance</div>
-          <div className="">Exchange</div>
+          <div className="mt-2 text-center">Balance</div>
+          <div className="text-center">Exchange</div>
         </div>
         <div className="w-32 h-36 bg-white m-3 border-[#f1f5f9] border rounded text-center">
-          <div className="w-12 h-12 bg-[#5eead4] rounded-md p-2">
+          <div className="w-12 h-12 bg-[#5eead4] rounded-md p-2 mx-auto mt-3">
             <HiOutlineSwitchVertical size={30} className="" color="white" />
           </div>
-          <div className="mt-2 ">Transfer To</div>
-          <div className="">Account</div>
+          <div className="mt-2 text-center">Transfer To</div>
+          <div className="text-center">Account</div>
         </div>
         <div className="w-32 h-36 bg-white m-3 border-[#f1f5f9] border rounded text-center">
-          <div className="w-12 h-12 bg-[#9333ea] rounded-md p-2">
+          <div className="w-12 h-12 bg-[#9333ea] rounded-md p-2 mx-auto mt-3">
             <HiOutlineChip size={30} className="" color="white" />
           </div>
-          <div className="mt-2 ">Generate</div>
-          <div className="">Voucher</div>
+          <div className="mt-2 text-center">Generate</div>
+          <div className="text-center">Voucher</div>
         </div>
         <div className="w-32 h-36 bg-white m-3 border-[#f1f5f9] border rounded text-center">
-          <div className="w-12 h-12 bg-[#ffcb00] rounded-md p-2">
+          <div className="w-12 h-12 bg-[#ffcb00] rounded-md p-2 mx-auto mt-3">
             <HiOutlineCash size={30} className="" color="white" />
           </div>
-          <div className="mt-2 ">Mobile</div>
-          <div className="">Money</div>
+          <div className="mt-2 text-center">Mobile</div>
+          <div className="text-center">Money</div>
         </div>
         <div className="w-32 h-36 bg-white m-3 border-[#f1f5f9] border rounded text-center">
-          <div className="w-12 h-12 bg-[#f43f5e] rounded-md p-2">
+          <div className="w-12 h-12 bg-[#f43f5e] rounded-md p-2 mx-auto mt-3">
             <HiOutlineLink size={30} className="" color="white" />
           </div>
-          <div className="mt-2 ">Payment</div>
-          <div className="">Link</div>
+          <div className="mt-2 text-center">Payment</div>
+          <div className="text-center">Link</div>
         </div>
       </div>
  
@@ -150,7 +150,7 @@ function WelcomeScreen() {
       </div>
 
       <div>
-          <ActivityGraph />
+          {/* <ActivityGraph /> */}
       </div>
     </div>
   );
